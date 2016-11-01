@@ -82,7 +82,6 @@ public class DemoChat extends JFrame implements MicrogearEventListener{
 	 */
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException,
 			IllegalAccessException, UnsupportedLookAndFeelException {
-		UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
